@@ -5,14 +5,6 @@ Install dependencies from requirements.txt:
 pip install -r requirements.txt
 
 
-Contents:
-
-requests → make API calls
-
-pandas → organize tabular data
-
-openpyxl → write Excel files
-
 🔑 API Keys
 
 Go to CoinGecko API docs
@@ -59,9 +51,9 @@ days: "1", "7", "30", "90", "max"
 
 interval: "daily", "hourly"
 
-sheet_name → rename the Excel sheet (e.g., btc_30d_eur).
+sheet_name: rename the Excel sheet (e.g., btc_30d_eur).
 
-out_path → set the filename/path of the Excel workbook.
+out_path: set the filename/path of the Excel workbook.
 
 🚀 Switching to Pro
 
